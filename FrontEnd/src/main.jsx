@@ -7,7 +7,7 @@ import "./index.css";
 import "./styles/components.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/flite">
     <ThemeProvider>
       <App />
     </ThemeProvider>
